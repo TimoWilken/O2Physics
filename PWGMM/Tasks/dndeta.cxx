@@ -37,9 +37,9 @@ AxisSpec MultAxis = {301, -0.5, 300.5};
 AxisSpec PhiAxis = {629, 0, 2 * M_PI};
 AxisSpec PtAxis = {2401, -0.005, 24.005};
 
-	using LabeledTracks = soa::Join<aod::Tracks,
+using LabeledTracks = soa::Join<aod::Tracks,
 
-aod::McTrackLabels>;    
+                                aod::McTrackLabels>;
 
 namespace o2::aod
 {
